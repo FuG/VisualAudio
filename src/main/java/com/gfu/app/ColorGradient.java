@@ -1,4 +1,4 @@
-package com.gfu;
+package com.gfu.app;
 
 import java.awt.Color;
 import java.util.ArrayList;

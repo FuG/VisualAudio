@@ -1,4 +1,4 @@
-package com.gfu;
+package com.gfu.app;
 
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
@@ -18,7 +18,6 @@ public class StreamPlayer implements Runnable {
         streamInfo = StreamInfo.getStreamInfo(file);
     }
 
-    @Override
     public void run() {
         try {
             play();

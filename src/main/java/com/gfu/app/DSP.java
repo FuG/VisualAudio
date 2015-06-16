@@ -1,4 +1,4 @@
-package com.gfu;
+package com.gfu.app;
 
 import org.apache.commons.math3.complex.Complex;
 import org.apache.commons.math3.transform.DftNormalization;

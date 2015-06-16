@@ -1,4 +1,4 @@
-package com.gfu;
+package com.gfu.app;
 
 import java.applet.Applet;
 import java.awt.*;
@@ -104,7 +104,6 @@ public class Main extends Applet implements Runnable {
         }
     }
 
-    @Override
     public void run() {
         loopStartTime = System.currentTimeMillis();
         double nextFrameTime = loopStartTime;
